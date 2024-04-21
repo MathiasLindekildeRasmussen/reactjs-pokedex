@@ -53,7 +53,7 @@ const PokemonDetails = () => {
                         <li key={typeEntry.type.name} className="text-gray-600">{capitalize(typeEntry.type.name)}</li>
                     ))}
                 </ul>
-            </div>http://localhost:3000/
+            </div>
             <div>
                 <h3 className="text-xl font-semibold text-gray-800 mt-4">Abilities:</h3>
                 <ul className="list-disc pl-5">
