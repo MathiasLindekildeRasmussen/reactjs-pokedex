@@ -8,7 +8,7 @@ function Home() {
   const [currentPage, setCurrentPage] = useState(1);
   const [nextPageUrl, setNextPageUrl] = useState(null);
   const [prevPageUrl, setPrevPageUrl] = useState(null);
-  const limit = 20; // Number of items per page
+  const limit = 20;
 
   useEffect(() => {
     const fetchPokemons = (pageUrl) => {
