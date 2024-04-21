@@ -1,13 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color:#242a31;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.progress-container {
+    background-color: #303841;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 5px;
+  }
+  
+.progress-bar {
+height: 20px;
+border-radius: 8px;
+text-align: center;
+line-height: 20px;
+color: white;
+font-weight: bold;
 }
+
+.hp { background-color: #ff0000; }
+.attack { background-color: #f08030; }
+.defense { background-color: #f8d030; }
+.specialattack { background-color: #6890f0; }
+.specialdefense { background-color: #78c850; }
+.speed { background-color: #f85888; }
